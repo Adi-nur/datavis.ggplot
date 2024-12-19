@@ -1,0 +1,49 @@
+/* Gaya umum untuk seluruh dokumen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f0; /* Warna latar belakang hijau muda */
+    color: #2e2e2e; /* Warna teks */
+}
+
+/* Gaya untuk judul */
+h1, h2, h3, h4, h5, h6 {
+    color: #4CAF50; /* Warna hijau untuk judul */
+}
+
+/* Gaya untuk tautan */
+a {
+    color: #4CAF50; /* Warna hijau untuk tautan */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+/* Gaya untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #4CAF50; /* Warna hijau untuk border tabel */
+}
+
+th {
+    background-color: #4CAF50; /* Warna hijau untuk header tabel */
+    color: white; /* Warna teks header tabel */
+}
+
+/* Gaya untuk paragraf */
+p {
+    line-height: 1.6; /* Jarak antar baris */
+}
+
+/* Gaya untuk blok kutipan */
+blockquote {
+    border-left: 4px solid #4CAF50; /* Garis hijau di sebelah kiri */
+    padding-left: 10px;
+    color: #555; /* Warna teks kutipan */
+    font-style: italic; /* Miringkan teks kutipan */
+}
